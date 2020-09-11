@@ -1,0 +1,5 @@
+.video-list {
+    max-height: 468px;
+    overflow: hidden;
+    overflow-y: auto;
+}

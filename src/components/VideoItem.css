@@ -1,0 +1,10 @@
+/* NOTE: any !important declarations are to override semantic ui */
+.video-item {
+    display: flex !important;
+    align-items: center;
+    cursor: pointer;
+}
+
+.video-item.item .ui.small.image {
+    width: 100px;
+}
