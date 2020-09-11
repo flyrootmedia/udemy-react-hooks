@@ -1,8 +1,8 @@
 import axios from 'axios';
 
 // NOTE: this key will be publicly available. 
-// Not a big deal for this case, but it can be restricted in google console
-const KEY = 'AIzaSyARylSBUAtisOJ63fWuR11n8Tc1XcPbQI4';
+// This is restricted to localhost:3000 and my test vercel app
+//const KEY = 'AIzaSyARylSBUAtisOJ63fWuR11n8Tc1XcPbQI4';
 
 const createRequest = axios.create({
     baseURL: 'https://www.googleapis.com/youtube/v3'
